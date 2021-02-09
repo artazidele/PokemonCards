@@ -88,10 +88,10 @@
                         <viewLayoutGuide key="safeArea" id="51l-cM-MGi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="51l-cM-MGi" firstAttribute="trailing" secondItem="zOu-H9-of4" secondAttribute="trailing" constant="20" id="2cs-P6-T5F"/>
-                            <constraint firstItem="zOu-H9-of4" firstAttribute="top" secondItem="51l-cM-MGi" secondAttribute="top" id="auN-lt-Ayk"/>
-                            <constraint firstItem="zOu-H9-of4" firstAttribute="leading" secondItem="51l-cM-MGi" secondAttribute="leading" constant="20" id="e79-er-309"/>
-                            <constraint firstItem="51l-cM-MGi" firstAttribute="bottom" secondItem="zOu-H9-of4" secondAttribute="bottom" constant="388" id="yan-gK-Phg"/>
+                            <constraint firstItem="51l-cM-MGi" firstAttribute="bottom" secondItem="zOu-H9-of4" secondAttribute="bottom" constant="388" id="AjU-nJ-K3y"/>
+                            <constraint firstItem="zOu-H9-of4" firstAttribute="leading" secondItem="51l-cM-MGi" secondAttribute="leading" constant="20" id="Btx-76-0oS"/>
+                            <constraint firstItem="51l-cM-MGi" firstAttribute="trailing" secondItem="zOu-H9-of4" secondAttribute="trailing" constant="20" id="mcf-3z-B1V"/>
+                            <constraint firstItem="zOu-H9-of4" firstAttribute="top" secondItem="51l-cM-MGi" secondAttribute="top" id="xFv-IR-ZvD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vkj-un-Ff0"/>

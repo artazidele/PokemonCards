@@ -12,11 +12,12 @@ class PokemonDetailViewController: UIViewController {
     var pokemon: Pokemon?
     
     @IBOutlet weak var pokemonImageView: UIImageView!
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         if let pokemon = pokemon {
-            ImagesController.getImage(for: pokemon.imageUrl ?? "") { (image) in
+            ImageController.getImage(for: pokemon.imageUrl ?? "") { (image) in
                     self.pokemonImageView.image = image
                 }
                 

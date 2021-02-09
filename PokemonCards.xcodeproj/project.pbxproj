@@ -16,7 +16,7 @@
 		C2BB3FDA25D2BC1500DE87F8 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BB3FD925D2BC1500DE87F8 /* Pokemon.swift */; };
 		C2BB3FDE25D2BE2700DE87F8 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BB3FDD25D2BE2700DE87F8 /* NetworkController.swift */; };
 		C2BB3FE525D2D24100DE87F8 /* PokemonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BB3FE425D2D24100DE87F8 /* PokemonsViewController.swift */; };
-		C2BB3FE925D2D79900DE87F8 /* ImagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BB3FE825D2D79900DE87F8 /* ImagesController.swift */; };
+		C2BB3FE925D2D79900DE87F8 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BB3FE825D2D79900DE87F8 /* ImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		C2BB3FD925D2BC1500DE87F8 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		C2BB3FDD25D2BE2700DE87F8 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		C2BB3FE425D2D24100DE87F8 /* PokemonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsViewController.swift; sourceTree = "<group>"; };
-		C2BB3FE825D2D79900DE87F8 /* ImagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesController.swift; sourceTree = "<group>"; };
+		C2BB3FE825D2D79900DE87F8 /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				C2BB3FDD25D2BE2700DE87F8 /* NetworkController.swift */,
-				C2BB3FE825D2D79900DE87F8 /* ImagesController.swift */,
+				C2BB3FE825D2D79900DE87F8 /* ImageController.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -191,7 +191,7 @@
 			files = (
 				C2BB3FDA25D2BC1500DE87F8 /* Pokemon.swift in Sources */,
 				C2BB3FE525D2D24100DE87F8 /* PokemonsViewController.swift in Sources */,
-				C2BB3FE925D2D79900DE87F8 /* ImagesController.swift in Sources */,
+				C2BB3FE925D2D79900DE87F8 /* ImageController.swift in Sources */,
 				C2BB3FDE25D2BE2700DE87F8 /* NetworkController.swift in Sources */,
 				C2BB3FD525D2BBE400DE87F8 /* PokemonDetailViewController.swift in Sources */,
 				C2BB3FB525D2B85600DE87F8 /* AppDelegate.swift in Sources */,
