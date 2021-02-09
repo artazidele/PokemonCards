@@ -63,6 +63,7 @@ extension PokemonsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "pokemonCell", for: indexPath)
         cell.textLabel?.text = pokey[indexPath.row].name
+        cell.detailTextLabel?.text = pokey[indexPath.row].subtype
         return cell
     }
 }

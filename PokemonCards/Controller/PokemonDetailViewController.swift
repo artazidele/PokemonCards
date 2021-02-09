@@ -13,6 +13,8 @@ class PokemonDetailViewController: UIViewController {
     
     @IBOutlet weak var pokemonImageView: UIImageView!
     
+    @IBOutlet weak var pokemonLabelFirst: UILabel!
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
@@ -20,6 +22,7 @@ class PokemonDetailViewController: UIViewController {
             ImageController.getImage(for: pokemon.imageUrl ?? "") { (image) in
                     self.pokemonImageView.image = image
                 }
+            self.pokemonLabelFirst?.text = pokemon.artist
                 
         } else {
             print("Pokemon image is nil")
