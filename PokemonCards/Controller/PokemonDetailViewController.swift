@@ -27,11 +27,21 @@ class PokemonDetailViewController: UIViewController {
             ImageController.getImage(for: pokemon.imageUrl ?? "") { (image) in
                     self.pokemonImageView.image = image
                 }
-            self.pokemonLabelFirst?.text = pokemon.artist
             self.nameField.text = "Name: " + pokemon.name
             self.idField.text = "ID: " + pokemon.id
             self.numberField.text = "Number: " + pokemon.number
-            self.subtypeField?.text = pokemon.subtype
+            if pokemon.artist != nil {
+                let artistPokemon = pokemon.artist
+                self.pokemonLabelFirst.text = "Artist: " + artistPokemon!
+            } else {
+                self.pokemonLabelFirst.text = "Artist: unknown"
+            }
+            if pokemon.subtype != nil {
+                let subtypePokemon = pokemon.subtype
+                self.subtypeField.text = "Subtype: " + subtypePokemon!
+            } else {
+                self.subtypeField.text = "Subtype: unknown"
+            }
                 
         } else {
             print("Pokemon image is nil")
