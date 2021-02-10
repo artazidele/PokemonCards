@@ -15,6 +15,7 @@ struct Pokemon: Decodable {
     let number: String
     var subtype: String?
     var artist: String?
+    let id: String
     
     enum CodingKeys: String, CodingKey {
         case name
@@ -23,6 +24,7 @@ struct Pokemon: Decodable {
         case number
         case subtype
         case artist
+        case id
     }
 }
 
