@@ -55,7 +55,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.85333120429999998" green="0.86590565480000004" blue="0.98675684819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="dLH-ng-iRN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8xh-ef-H79"/>
                             <constraint firstItem="dLH-ng-iRN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Owd-2h-9tX"/>
@@ -121,7 +121,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="51l-cM-MGi"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.85333120429999998" green="0.86590565480000004" blue="0.98675684819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="51l-cM-MGi" firstAttribute="trailing" secondItem="OjD-3D-dpz" secondAttribute="trailing" constant="20" id="6c7-zp-tw2"/>
                             <constraint firstItem="V97-Jw-OIP" firstAttribute="leading" secondItem="51l-cM-MGi" secondAttribute="leading" constant="20" id="85Z-Yo-Hur"/>
