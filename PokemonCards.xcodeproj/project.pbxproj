@@ -17,6 +17,7 @@
 		C2BB3FDE25D2BE2700DE87F8 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BB3FDD25D2BE2700DE87F8 /* NetworkController.swift */; };
 		C2BB3FE525D2D24100DE87F8 /* PokemonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BB3FE425D2D24100DE87F8 /* PokemonsViewController.swift */; };
 		C2BB3FE925D2D79900DE87F8 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BB3FE825D2D79900DE87F8 /* ImageController.swift */; };
+		C2BB3FEF25D407C800DE87F8 /* PockeyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BB3FEE25D407C800DE87F8 /* PockeyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C2BB3FDD25D2BE2700DE87F8 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		C2BB3FE425D2D24100DE87F8 /* PokemonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsViewController.swift; sourceTree = "<group>"; };
 		C2BB3FE825D2D79900DE87F8 /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		C2BB3FEE25D407C800DE87F8 /* PockeyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockeyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				C2BB3FD425D2BBE300DE87F8 /* PokemonDetailViewController.swift */,
 				C2BB3FE425D2D24100DE87F8 /* PokemonsViewController.swift */,
+				C2BB3FEE25D407C800DE87F8 /* PockeyTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			files = (
 				C2BB3FDA25D2BC1500DE87F8 /* Pokemon.swift in Sources */,
 				C2BB3FE525D2D24100DE87F8 /* PokemonsViewController.swift in Sources */,
+				C2BB3FEF25D407C800DE87F8 /* PockeyTableViewCell.swift in Sources */,
 				C2BB3FE925D2D79900DE87F8 /* ImageController.swift in Sources */,
 				C2BB3FDE25D2BE2700DE87F8 /* NetworkController.swift in Sources */,
 				C2BB3FD525D2BBE400DE87F8 /* PokemonDetailViewController.swift in Sources */,
